@@ -56,6 +56,7 @@ def get_query(gage, agr_dat):
 try:
 
 	gage_id = '22D21235C005'
+	gage_id = gage_id.strip()
 
 	for c in gage_id:
 		print(c + ' = ' + str(ord(c)))
